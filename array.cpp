@@ -2,6 +2,11 @@
 using namespace std;
 
 int main(){
+    //1d array
+    int arr[3];
+    arr[0]=1;
+    cout<<arr[0];
+    //2d array
     int arr[3][4];
     arr[2][1] = 22323;
     cout<<arr[2][1];
